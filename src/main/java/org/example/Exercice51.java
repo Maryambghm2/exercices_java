@@ -13,9 +13,10 @@ public class Exercice51 {
         String nom, prenom;
         Scanner scanner = new Scanner(System.in);
         System.out.println("Saisir un prenom :");
-                scanner.nextLine();
-        System.out.println("Saisir un prenom :");
+               prenom = scanner.nextLine();
+        System.out.println("Saisir un nom :");
+        nom = scanner.nextLine();
 
-        System.out.println("Bonjour "+ prenom+ " "+nom);
+        System.out.println("Bonjour "+ prenom+ " "+nom +".");
     }
 }
